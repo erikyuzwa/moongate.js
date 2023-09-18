@@ -1,5 +1,7 @@
 # Moongate.js
 
+A JavaScript text character-based tile engine for creating role-playing and roguelike games!
+
 ![](./screenshot.jpg)
 
 *image courtesy of the [Ultima Codex wiki](https://wiki.ultimacodex.com/wiki/Moongate)*
@@ -13,19 +15,19 @@ some gamedev stuff for 2D projects.
 
 **NOTE: THIS IS HEAVILY A WORK IN PROGRESS. PULL REQUESTS WILL DEFINITELY BE LOOKED AT.**
 
-## Use in your own Projects
+## Use in your own Projects (aka. howto use in my game?)
 
 - `npm install moongate.js`
 
 
-## Development Install
+## development install (aka. working on this project's source code)
 
 - `git clone git@github.com:erikyuzwa/moongate.js.git`
 - `cd moongate.js`
 - `npm run dev`
 - `http://localhost:5173`
 
-## Production Build
+## production build (aka. building this project's source code)
 
 - `npm run build`
 
@@ -45,12 +47,13 @@ some gamedev stuff for 2D projects.
 
 ## TODO list and Roadmap
 
-- Remove DOM based renderer
-- Clean up CSS importing / exporting
-- Debug `onkeydown is not a function` bug
-- Properly structure demo with the build
-- Introduce proper Models as Entities
-- Introduce the event-based mechanism
+- remove DOM based renderer
+- clean up CSS importing / exporting
+- debug `onkeydown is not a function` bug
+- properly structure demo with the build
+- introduce proper Models as Entities
+- introduce the event-based mechanism
+- add tilemap sprite support?
 - TODO
 
 ## References and Inspiration
