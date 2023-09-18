@@ -1,8 +1,8 @@
 # Moongate.js
 
-A JavaScript text character-based tile engine for creating role-playing and roguelike games!
+JavaScript text character-based tile engine for creating role-playing and roguelike games.
 
-![](./screenshot.jpg)
+![](https://github.com/erikyuzwa/moongate.js/raw/main/screenshot.jpg)
 
 *image courtesy of the [Ultima Codex wiki](https://wiki.ultimacodex.com/wiki/Moongate)*
 
@@ -11,7 +11,6 @@ A JavaScript text character-based tile engine for creating role-playing and rogu
 - The aim is to create a collection of classes, objects, structs and/or enums that make putting together
 some gamedev stuff for 2D projects.
 - In other words, your own *Moongate* getting you to your gameplay faster.
-
 
 **NOTE: THIS IS HEAVILY A WORK IN PROGRESS. PULL REQUESTS WILL DEFINITELY BE LOOKED AT.**
 
@@ -24,8 +23,8 @@ some gamedev stuff for 2D projects.
 
 - `git clone git@github.com:erikyuzwa/moongate.js.git`
 - `cd moongate.js`
-- `npm run dev`
-- `http://localhost:5173`
+- `npm start`
+- `http://localhost:8080/demo`
 
 ## production build (aka. building this project's source code)
 
@@ -54,6 +53,7 @@ some gamedev stuff for 2D projects.
 - introduce proper Models as Entities
 - introduce the event-based mechanism
 - add tilemap sprite support?
+- audio support?
 - TODO
 
 ## References and Inspiration

@@ -1,35 +1,40 @@
 {
   "name": "moongate.js",
+  "description": "JavaScript text character-based tile engine for creating role-playing and roguelike games.",
   "version": "0.2.2",
   "type": "module",
+  "main": "./dist/moongate.umd.js",
+  "module": "./dist/moongate.es.js",
+  "author": "https://github.com/erikyuzwa/moongate.js/graphs/contributors",
+  "homepage": "https://github.com/erikyuzwa/moongate.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "http-server ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erikyuzwa/moongate.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erikyuzwa/moongate.js/issues"
+  },
+  "keywords": [
+    "moongate.js",
+    "game",
+    "engine",
+    "javascript",
+    "tile"
+  ],
   "devDependencies": {
     "eslint": "^8.49.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "http-server": "^14.1.1",
     "vite": "^4.4.5",
     "vite-plugin-linter": "^2.0.5"
   },
-  "peerDependencies":{
-  },
-  "files": [
-    "dist"
-  ],
-  "exports": {
-    ".": {
-      "import": "./dist/moongate.es.js",
-      "require": "./dist/moongate.umd.js"
-    },
-    "./dist/moongate.css": {
-      "import": "./dist/moongate.css",
-      "require": "./dist/moongate.css"
-    }
-  },
-  "main": "./dist/moongate.umd.js",
-  "module": "./dist/moongate.es.js",
+  "peerDependencies": {},
   "license": "MIT"
 }

@@ -1,9 +1,8 @@
 // initially forked from unicodetiles.js::/examples/simple-dungeon.js
 // https://github.com/tapio/unicodetiles.js/blob/master/examples/simple-dungeon.js
 
-import './style.css'
-import * as moongate from './src/index'
-import {initFOV, updateFOV} from './fov'
+import * as moongate from '../dist/moongate.es.js'
+import {initFOV, updateFOV} from './fov.js'
 
 const model = new moongate.Model({
   foo: 'foo'
