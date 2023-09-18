@@ -47,6 +47,7 @@ some gamedev stuff for 2D projects.
 
 - Remove DOM based renderer
 - Clean up CSS importing / exporting
+- Debug `onkeydown is not a function` bug
 - Properly structure demo with the build
 - Introduce proper Models as Entities
 - Introduce the event-based mechanism

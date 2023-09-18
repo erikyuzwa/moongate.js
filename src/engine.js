@@ -1,3 +1,6 @@
+// initially forked from unicodetiles.js::ut.Engine
+// https://github.com/tapio/unicodetiles.js/blob/master/unicodetiles/unicodetiles.js
+
 import {NULL_TILE} from './tile'
 
 class Engine {
