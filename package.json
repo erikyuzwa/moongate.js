@@ -1,7 +1,7 @@
 {
   "name": "moongate.js",
   "description": "JavaScript text character-based tile engine for creating role-playing and roguelike games.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "main": "./dist/moongate.umd.js",
   "module": "./dist/moongate.es.js",
