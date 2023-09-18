@@ -1,8 +1,12 @@
 
+
 class Model {
-  constructor(options) {
-    this.options = options || {}
+  constructor(attributes, options) {
+    console.log('model')
   }
 }
+
+
+
 
 export default Model

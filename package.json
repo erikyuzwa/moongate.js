@@ -15,8 +15,9 @@
     "vite": "^4.4.5",
     "vite-plugin-linter": "^2.0.5"
   },
-  "peerDependencies": {
-
+  "peerDependencies":{
+    "backbone.js": "^3.0.0",
+    "lodash": "^4.17.21"
   },
   "files": [
     "dist"
@@ -25,6 +26,10 @@
     ".": {
       "import": "./dist/moongate.es.js",
       "require": "./dist/moongate.umd.js"
+    },
+    "./dist/moongate.css": {
+      "import": "./dist/moongate.css",
+      "require": "./dist/moongate.css"
     }
   },
   "main": "./dist/moongate.umd.js",
