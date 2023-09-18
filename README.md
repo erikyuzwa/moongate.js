@@ -8,10 +8,10 @@
 - A doorway or portal to a new quest or land of adventures!
 - The aim is to create a collection of classes, objects, structs and/or enums that make putting together
 some gamedev stuff for 2D projects.
-- Your own *Moongate* getting you to your gameplay faster.
+- In other words, your own *Moongate* getting you to your gameplay faster.
 
 
-NOTE: THIS IS HEAVILY A WORK IN PROGRESS. PULL REQUESTS WILL DEFINITELY BE LOOKED AT.
+**NOTE: THIS IS HEAVILY A WORK IN PROGRESS. PULL REQUESTS WILL DEFINITELY BE LOOKED AT.**
 
 ## Use in your own Projects
 
@@ -37,20 +37,31 @@ NOTE: THIS IS HEAVILY A WORK IN PROGRESS. PULL REQUESTS WILL DEFINITELY BE LOOKE
 - colored character backgrounds
 - simple keyboard input handling
 - includes DejaVu Sans Mono font support
+- event based infrastructure
 
 ## Videos
 
 - TODO
 
-## Roadmap
+## TODO list and Roadmap
 
+- Remove DOM based renderer
+- Clean up CSS importing / exporting
+- Properly structure demo with the build
+- Introduce proper Models as Entities
+- Introduce the event-based mechanism
 - TODO
 
 ## References and Inspiration
 
+- [backbone.js](https://backbonejs.org/)
 - [unicodetiles](https://github.com/tapio/unicodetiles.js)
 - [FlashPunk](http://useflashpunk.net/)
 - [SDL2](https://libsdl.org/)
+
+Bits of this code base are based on objects forked from the Unicodetiles project. I wanted to
+start with that, then add extra layers in terms of an event bus for working with Tiles...
+and more
 
 ## License
 

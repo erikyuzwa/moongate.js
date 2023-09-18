@@ -16,8 +16,6 @@
     "vite-plugin-linter": "^2.0.5"
   },
   "peerDependencies":{
-    "backbone.js": "^3.0.0",
-    "lodash": "^4.17.21"
   },
   "files": [
     "dist"
